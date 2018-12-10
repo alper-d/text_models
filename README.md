@@ -14,10 +14,15 @@ gensim 3.5.0
 word2vec 0.9.4
 For conda package manager
 
-'''conda create --name tw_sentiment'''
-'conda install --name tw_sentiment tensorflow=1.10.0'
-'conda install --name tw_sentiment gensim=3.5.0'
-'conda install --name tw_sentiment word2vec=0.9.4'
+'''
+conda create --name tw_sentiment
+
+conda install --name tw_sentiment tensorflow=1.10.0
+
+conda install --name tw_sentiment gensim=3.5.0
+
+conda install --name tw_sentiment word2vec=0.9.4
+'''
 
 Any instance of skopt library import can be eliminated from code if gives error.
 
